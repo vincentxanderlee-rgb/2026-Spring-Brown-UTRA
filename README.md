@@ -15,12 +15,15 @@ The three models that were tested are
 3. Sentence-Transformers (General)
 
 There were three layers that were targetted:
+
 Low: surface level features
+
 Middle: semantic structures, basic relationships
+
 High: high level abstractions, instruction-tuned logic
 
-#Results
+# Results
 My results showed strong potential for AI automation of scoring since all three models successfully distinguished between captions of the same image versus different images. However, specialized sentence-embedding models (MPNet) showed stronger semantic discriminability, likely due to their contrastive learning objective which structures the embedding space to preserve semantic distinctions. The next step is to test whether this optimized semantic space better captures gist-level representations.
 
-#Conclusion
+# Conclusion
 By optimizing LLMs to score visual memory recall, we can move beyond simplified testing and gain further insight into the complex transformations that occur between perception and memory. 
